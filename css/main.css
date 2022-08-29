@@ -1,0 +1,174 @@
+:root {
+  --first-color: (#ef8900);
+}
+body {
+  font-family: "Almarai", sans-serif !important;
+}
+.image {
+  background-size: cover;
+  min-height: 100vh;
+}
+.logo span img {
+  width: 132px;
+  height: 38.1px;
+  margin-top: 30px;
+}
+.heading .lead {
+  color: #ffffff;
+  font-weight: bold;
+
+  font-size: 48px;
+  line-height: 2em;
+  align-self: flex-start;
+  max-width: 90%;
+}
+.par {
+  color: #ffffff;
+  font-size: 20px;
+  max-width: 100%;
+  line-height: 1.4em;
+}
+.heading .text {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  background-color: #ebebeb;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  margin-top: 30px;
+}
+.brand {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 56px;
+  height: 16px;
+}
+.position {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  color: #000000;
+  font-size: 18px;
+}
+.par.second {
+  max-width: 65%;
+}
+.form-select {
+  color: #000000;
+  background-position: left 0.75rem center;
+}
+
+.display p {
+  background-color: #ffffff;
+  width: 118px;
+  height: 43px;
+  margin: auto;
+  line-height: 35px;
+  padding-right: 40px;
+  font-size: 14px;
+  border-radius: 0.375rem;
+}
+.display span {
+  padding-left: 10px;
+}
+.display {
+  display: flex;
+}
+
+.color {
+  border: 1px solid #ced4da;
+  position: relative;
+}
+.color2 {
+  border: 1px solid #ced4da;
+  position: relative;
+}
+
+.form-control {
+  padding-right: 2.5rem;
+}
+
+.icon1 {
+  background: url("/images/user (9).svg") no-repeat scroll 245px 8px;
+  background-size: 15px;
+  background-color: white;
+}
+.icon2 {
+  background: url("../images/smartphone\ \(2\).svg") no-repeat scroll 248px 9px;
+  background-size: 10px;
+  background-color: white;
+}
+.icon3 {
+  background: url("../images/mail\ \(1\).svg") no-repeat scroll 245px 11px;
+  background-size: 16px;
+  background-color: white;
+}
+.icon4 {
+  background: url("../images/portfolio\ \(2\).svg") no-repeat scroll 247px 10px;
+  background-size: 15px;
+  background-color: white;
+}
+
+.profit {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.btn {
+  background-color: #fd8b25;
+  width: 250px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: #fd8b25;
+  border-color: #fd8b25;
+}
+.image4 {
+  position: relative;
+}
+.posi {
+  position: absolute;
+  left: 89%;
+  top: 14%;
+}
+@media only screen and (max-width: 576px) {
+  .heading .lead {
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  form {
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+.color:hover {
+  color: #009045;
+  border: 1px solid #009045;
+  position: relative;
+}
+.color:hover::after {
+  content: url(../images/15-Checked.svg);
+  position: absolute;
+  left: 59px;
+  top: 5px;
+}
+.color2:hover {
+  color: #009045;
+  border: 1px solid #009045;
+  position: relative;
+}
+.color2:hover::after {
+  content: url(../images/15-Checked.svg);
+  position: absolute;
+  left: 59px;
+  top: 5px;
+}
